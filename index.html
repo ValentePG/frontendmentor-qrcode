@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+  <title>QRcode</title>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      body{
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', sans-serif;
+      }
+      
+      main{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .conteúdo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 340px;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+      }
+
+      .imagem img{
+        width: 340px;
+        border-radius: 10px;
+      }
+
+      .texto h1{
+        margin: 20px 0;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+      }
+      
+      .texto p {
+        font-weight: 400;
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+      }
+
+  </style>
+</head>
+<body>
+  <main>
+      <section class="conteúdo">
+          <div class="imagem">
+            <img src="imagens/image-qr-code.png" alt="QRcode">
+          </div>
+          <div class="texto">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+          </div>
+      </section>
+  </main>
+</body>
+</html>
