@@ -1,4 +1,4 @@
-#Front-end Mentor QR-code
+# Front-end Mentor QR-code
 
 ## 💻 Projeto 
 Projeto QRcode do site Frontend mentor / Basicamente um treino de centralização de div com flexbox
